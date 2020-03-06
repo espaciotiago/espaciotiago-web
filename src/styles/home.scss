@@ -1,0 +1,73 @@
+@import "./variables.scss";
+//Presentation
+.presentation {
+  background-image: url("../assets/background_dark.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 16px;
+  .presentation-content {
+    width: 30%;
+    position: absolute;
+    bottom: 5px;
+  }
+  h1 {
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+    max-height: 65px;
+  }
+  p {
+    color: $colorLight;
+    text-align: justify;
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    a {
+      color: $colorAccent;
+      font-weight: bold;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    .social-links {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      a {
+        padding: 8px;
+      }
+    }
+  }
+}
+//Portfolio - Sections
+.portfolio {
+  display: flex;
+  margin: 64px 48px;
+  .portfolio-content {
+    flex: 1;
+    p {
+      text-align: justify;
+    }
+  }
+}
+//Vertical text - Sections
+.vertical-text {
+  margin-top: 32px;
+  height: 100%;
+  width: 10%;
+  transform: rotate(270deg);
+  p {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+  }
+  .divider {
+    width: 100%;
+    display: flex;
+    background-color: $colorAccent;
+    height: 5px;
+  }
+}
