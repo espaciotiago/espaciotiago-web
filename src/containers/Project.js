@@ -67,9 +67,12 @@ class Project extends React.Component {
                     <p>{this.state.item.description}</p>
                     <br />
                     <div className="portfolio-details">
-                        <p><b>Cliente: </b>{this.state.item.client}</p>
-                        <p><b>Plataformas: </b>{this.state.item.platforms}</p>
-                        <p><b>Técnologias: </b>{this.state.item.technologies}</p>
+                        {this.state.item.client && this.state.item.client !== "" &&
+                            <p><b>Cliente: </b>{this.state.item.client}</p>}
+                        {this.state.item.platforms && this.state.item.platforms !== "" &&
+                            <p><b>Plataformas: </b>{this.state.item.platforms}</p>}
+                        {this.state.item.technologies && this.state.item.technologies !== "" &&
+                            <p><b>Técnologias: </b>{this.state.item.technologies}</p>}
                     </div>
                     <br />
                     <div className="actions">

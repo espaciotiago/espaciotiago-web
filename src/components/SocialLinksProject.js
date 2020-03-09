@@ -19,42 +19,42 @@ function SocialLinks(props) {
         <div className="social-links">
             {github && github !== "" && <a
                 rel="noopener noreferrer"
-                href="https://github.com/espaciotiago"
+                href={github}
                 target="_blank">
                 <img src={Github} height={32} alt="github" />
             </a>}
 
             {linkedin && linkedin !== "" && <a
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/espaciotiago/"
+                href={linkedin}
                 target="_blank">
                 <img src={Linkedin} height={32} alt="linkedin" />
             </a>}
 
             {twitter && twitter !== "" && <a
                 rel="noopener noreferrer"
-                href="https://twitter.com/espaciotiago"
+                href={twitter}
                 target="_blank">
                 <img src={Twitter} height={32} alt="twitter" />
             </a>}
 
             {facebook && facebook !== "" && <a
                 rel="noopener noreferrer"
-                href="https://twitter.com/espaciotiago"
+                href={facebook}
                 target="_blank">
                 <img src={Facebook} height={32} alt="twitter" />
             </a>}
 
             {instagram && instagram !== "" && <a
                 rel="noopener noreferrer"
-                href="https://www.instagram.com/espaciotiago/"
+                href={instagram}
                 target="_blank">
                 <img src={Instagram} height={32} alt="instagram" />
             </a>}
 
             {youtube && youtube !== "" && <a
                 rel="noopener noreferrer"
-                href="https://github.com/espaciotiago"
+                href={youtube}
                 target="_blank">
                 <img src={Youtube} height={32} alt="youtube" />
             </a>}

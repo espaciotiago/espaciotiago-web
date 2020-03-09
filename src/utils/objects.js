@@ -34,6 +34,7 @@ export const portfolioObjects = [
         //facebook: "https://github.com/espaciotiago",
         //twitter: "https://github.com/espaciotiago",
         //youtube: "https://github.com/espaciotiago",
+        //instagram: "https://github.com/espaciotiago",
         mobile: true,
         type: "project"
     },
@@ -137,7 +138,7 @@ export const contentObject = [
     /**---------------------------------
      * Tecnocretinos
      ---------------------------------*/
-    {
+    /*{
         images: [],
         title: "Tecnocretinos",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
@@ -147,7 +148,7 @@ export const contentObject = [
         url: "",
         content: true,
         type: "content"
-    },
+    },*/
 ]
 
 export const moreObject = [
@@ -161,22 +162,21 @@ export const moreObject = [
         client: "",
         platforms: "",
         technologies: "",
-        url: "",
+        instagram: "https://www.instagram.com/tintaocafe/",
         content: true,
         type: "more"
     },
     /**---------------------------------
      * Santad up comedy
      ---------------------------------*/
-     {
+     /*{
         images: [],
         title: "Stand up comedy",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
         client: "",
         platforms: "",
         technologies: "",
-        url: "",
         content: true,
         type: "more"
-    },
+    },*/
 ]
