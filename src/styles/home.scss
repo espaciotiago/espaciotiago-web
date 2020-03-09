@@ -31,6 +31,12 @@
       font-size: 18px;
       text-decoration: none;
     }
+    span {
+      color: $colorAccent;
+      font-weight: bold;
+      font-size: 18px;
+      text-decoration: none;
+    }
     .social-links {
       flex: 1;
       display: flex;
@@ -69,5 +75,51 @@
     display: flex;
     background-color: $colorAccent;
     height: 5px;
+  }
+}
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+//Vertical text - Sections
+footer {
+  background-color: $colorDark;
+  height: 400px;
+  padding: 16px;
+  p {
+    color: $colorLight;
+    font-size: 14px;
+    width: 30%;
+    text-align: justify;
+  }
+  .footer-end {
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    .img-logo {
+      height: 80px;
+    }
+    .actions {
+      display: flex;
+      align-items: flex-end;
+      width: 100%;
+      height: 100%;
+      a {
+        color: $colorAccent;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+      }
+      .social-links {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+        a {
+          padding: 8px;
+        }
+      }
+    }
   }
 }

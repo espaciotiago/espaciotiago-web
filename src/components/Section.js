@@ -3,7 +3,7 @@ import VerticalText from './VerticalText'
 
 function Section(props) {
     return (
-        <section className="portfolio">
+        <section className="portfolio" id={props.title}>
             <VerticalText label={props.title} />
             <div className="portfolio-content">
                 {props.children}

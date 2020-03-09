@@ -1,0 +1,61 @@
+@import "./variables.scss";
+
+.main-project {
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 16px;
+  .header{
+      display: flex;
+      align-items: center;
+      .back{
+          height: 14px;
+          margin-right: 16px;
+      }
+  }
+  .project-content {
+    width: 30%;
+    .main-img{
+        height: 50vh;
+    }
+  }
+  h1 {
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+    max-height: 65px;
+    margin-bottom: 8px;
+  }
+  p {
+    color: $colorDark;
+    text-align: justify;
+    margin: 0;
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    a {
+      color: $colorAccent;
+      font-weight: bold;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    span {
+      color: $colorAccent;
+      font-weight: bold;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    .social-links {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      a {
+        padding: 8px;
+      }
+    }
+  }
+}

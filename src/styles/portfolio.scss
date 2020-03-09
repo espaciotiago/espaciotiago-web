@@ -1,0 +1,45 @@
+@import "./variables.scss";
+
+.portfolio-card {
+  padding: 16px;
+  background-color: $colorWhite;
+  border-radius: 5px;
+  -webkit-box-shadow: 9px 9px 21px -9px rgba(107, 107, 107, 0.1);
+  -moz-box-shadow: 9px 9px 21px -9px rgba(107, 107, 107, 0.1);
+  box-shadow: 9px 9px 21px -9px rgba(107, 107, 107, 0.1);
+
+  h2 {
+    font-weight: bold;
+  }
+  .portfolio-display-mobile {
+    display: flex;
+    img {
+      height: 200px;
+    }
+  }
+  .portfolio-display-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 200px;
+    }
+  }
+  .portfolio-content {
+    h1 {
+      font-size: 120px;
+      margin: 0;
+      padding: 0;
+      max-height: 65px;
+    }
+    p {
+      max-height: 120px;
+      overflow-y: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .portfolio-info {
+    padding: 16px;
+    margin-left: 8px;
+  }
+}
