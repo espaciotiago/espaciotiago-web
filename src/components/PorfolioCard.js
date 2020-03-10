@@ -13,7 +13,7 @@ function PortfolioCard(props) {
                     <img src={images.length > 0 ? images[0] : ""} alt="profolio" />}
                 <div className="portfolio-info">
                     <h1>“</h1>
-                    <p>{item.description}</p>
+                    <p>{item.description}</p>...
                 </div>
             </div>
         </span>

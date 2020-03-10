@@ -29,9 +29,11 @@ function Home(props) {
         <div className="presentation-content">
           <h1>“</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hola, soy Tiago!
+            <br />
+            Soy ingeniero, geek, apasioando por la técnologia, el software y el café. Me dedico a desarrollar aplicaciones móviles y web para optimizar y automatizar procesos organizacionales.
+            <br/>
+            Poseo amplia experiencia trabajando en áreas de diseño e implementación de soluciones integrales de TI, desarrollo de aplicaciones móviles y gestión de proyectos de base tecnológica. Como desarrollador, tengo una amplia experiencia en el diseño y desarrollo de aplicaciones móviles (Native y Bridge para Android e iOS) y Web; así como programación en diferentes entornos de desarrollo y diseño de UI y UX.
           </p>
           <div className="actions">
             <span onClick={scroll}>Read more</span>
@@ -44,8 +46,9 @@ function Home(props) {
       {/* Porfolio */}
       <Section title="Portfolio">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          A continuación se muestran algunos de los proyectos más destacados que he tenido la oportunidad de desarrollar en mi carrera como independiente.
+          Para obtener un poco más de información sobre mi background laborar, te invito a ver mi CV en el siguiente 
+          <a href="http://espaciotiago.com/cv.pdf" target="_blank" rel="noopener noreferrer"> enlace</a>.
         </p>
         <div className="portfolio-container">
           {portfolioObjects.map((item, index) => {
@@ -61,10 +64,7 @@ function Home(props) {
       {/* Content */}
       <Section title="Content">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          La generación de contenido es aún un mundo inexplorado por mi, pero que me genera mucha curiosidad.
           </p>
         <div className="portfolio-container">
           {contentObject.map((item, index) => {
@@ -80,12 +80,9 @@ function Home(props) {
       {/* About me */}
       <Section title="More">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          Esta sección muestra otros de mis proyectos personales, pasiones y hobbies a los que dedico tiempo y esfuerzos,
+          más alla de ámbito profesional. Son proyectos que me han permitido desarrollar habilidades y tener experiencias diferentes pero igual de enriquecedoras.
+        </p>
         <div className="portfolio-container">
           {moreObject.map((item, index) => {
             return (
@@ -100,9 +97,8 @@ function Home(props) {
       {/* Footer */}
       <footer>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          No dudes en ponerte en contacto si tienes una necesidad que consideras 
+          puede ser resuelta médiante técnologia. Estoy siempre abierto al dialogo, un café y todo lo que involucre crear nuevas soluciones.
           </p>
         <div className="footer-end">
           <div className="actions">

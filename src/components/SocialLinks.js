@@ -4,6 +4,7 @@ import Instagram from '../assets/instagram.png'
 import Linkedin from '../assets/linkedin.png'
 import Twitter from '../assets/twitter.png'
 import Youtube from '../assets/youtube.png'
+import Pdf from '../assets/pdf.png'
 
 function SocialLinks() {
     return (
@@ -41,6 +42,12 @@ function SocialLinks() {
                 href="https://github.com/espaciotiago"
                 target="_blank">
                 <img src={Youtube} height={32} alt="youtube" />
+            </a>
+            <a
+                rel="noopener noreferrer"
+                href="http://espaciotiago.com/cv.pdf"
+                target="_blank">
+                <img src={Pdf} height={32} alt="pdf" />
             </a>
         </div>
     )

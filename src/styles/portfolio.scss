@@ -33,9 +33,10 @@
       max-height: 65px;
     }
     p {
-      max-height: 120px;
+      max-height: 85px;
       overflow-y: hidden;
       text-overflow: ellipsis;
+      margin-bottom: 0;
     }
   }
   .portfolio-info {

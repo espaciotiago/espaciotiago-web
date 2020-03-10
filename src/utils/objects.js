@@ -24,7 +24,7 @@ export const portfolioObjects = [
     {
         images: [pio1, pio2],
         title: "Pioneers",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "Aplicación móvil para la admnistración de asociados, créditos y aportes para pequeñas y medianas cooperativas y fondos de empleados. Esta aplicación también esta pensada para los asociados de las cooperativas, en la cual pueden consultar sus estados financieros, solicitar y administrar nuevos créditos.",
         client: "Producto propio",
         platforms: "iOS, Web",
         technologies: "Swift, React Js, Firebase",
@@ -44,7 +44,7 @@ export const portfolioObjects = [
     {
         images: [poe1, poe2],
         title: "Pohema",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "La fundación pohema ofrece, a traves de esta aplicación móvil, una herramienta para el rápido diagnostico de cancer infantil, según los lineamientso del manual AIEPI. Asi mismo, la aplicación permite generar discusiones sobre el tema y resolver dudas o compartir contenido relevante, para la creación de una comunidad en torno a la oncología pediátrica.",
         client: "Fundación Pohema",
         platforms: "Android, iOS, Web",
         technologies: "React native, React Js",
@@ -58,7 +58,7 @@ export const portfolioObjects = [
     {
         images: [tur1, tur2],
         title: "Turnow",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "Es un sistema de gestión móvil y web, para que las empresas con turnos rotativos puedan crear y administrar los ciclos de turnos para sus empleados. Los empleados, a traves de la aplicación móvil, pueden administrar y visualizar sus turnos, asi como hacer pedidos de cambio de turno o vacaciones.",
         client: "Turnow - Independiente",
         platforms: "Android, iOS, Web",
         technologies: "React native, React Js",
@@ -71,7 +71,7 @@ export const portfolioObjects = [
     {
         images: [agr1, agr2],
         title: "Agroapp",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "Aplicación móvil para el manejo de incidentes en maquinaria agricola en el campo. Permite generar avisos y ordenes de mantenimiento, asi como hacer el pedido de los repuestos necesarios al almacen. Esta aplicación genera los avisos, ordenes y requisición de repuestos en SAP.",
         client: "Incauca S.A.S - Providencia S.A",
         platforms: "Android",
         technologies: "Android (Java), .Net",
@@ -84,7 +84,7 @@ export const portfolioObjects = [
     {
         images: [eap1, eap2],
         title: "E-apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "Aplicación móvil para gestion de inventarios, prestamos y entrega de dotaciones e items, en empresas de manufactura.",
         client: "E-apps - Independiente",
         platforms: "Android",
         technologies: "Android (Java)",
@@ -97,7 +97,7 @@ export const portfolioObjects = [
     {
         images: [api1, api2],
         title: "Apigen",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "Api generator permite a los desarrolladores crear bases de datos y APIs sobre las mismas de forma gráfica y simple. Es una herramienta web perfecta para prototipado rapido de APIs como servicio.",
         client: "Producto propio",
         platforms: "Web",
         technologies: "React Js",
@@ -110,7 +110,7 @@ export const portfolioObjects = [
     {
         images: [cva1, cva2],
         title: "Cvadmin",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "CVAdmin es un repositorio de hojas de vida para la gestión de candidatos y generación de reportes sobre las conclusiones de las entrevistas a los candidatos.",
         client: "Nicepeople Consulting",
         platforms: "Web",
         technologies: "React Js",
@@ -124,7 +124,7 @@ export const portfolioObjects = [
     {
         images: [mtc1, mtc2],
         title: "Mi tienda café",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "En Mi tienda café encontrarás el café de tu gusto, donde cada grano será cuidadosamente seleccionado para ti. Encontrarás cafes especiales, orgánicos, de origen, varietales, accesorios, métodos de filtrados y más. Mi tienda café es un marketplace que pretende reuinr a las marcas de cafes especiales, de origen, varietales y demas, en un solo lugar.",
         client: "Producto propio",
         platforms: "Web",
         technologies: "React Js, Firebase",
@@ -138,17 +138,17 @@ export const contentObject = [
     /**---------------------------------
      * Tecnocretinos
      ---------------------------------*/
-    /*{
+    {
         images: [],
         title: "Tecnocretinos",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "Es aún una idea en al que se pretendé divulgar de manera creativa y diferente, contenido de interes general sobre el mundo de la técnologia y la ciencia.",
         client: "",
         platforms: "",
         technologies: "",
         url: "",
         content: true,
         type: "content"
-    },*/
+    },
 ]
 
 export const moreObject = [
@@ -157,8 +157,8 @@ export const moreObject = [
      ---------------------------------*/
     {
         images: [],
-        title: "Coffee lover - Tintao café",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        title: "Tintao café",
+        description: "Me considero un amante del café, por ese motivo en 2018 cree, junto con 2 amigos igual de apasionados por el tema, la marca de cafes de origen Tintao café. Un marca que vela por crear espacios para la creatividad, la innovación y la interacción a través de experiencias de #cafe",
         client: "",
         platforms: "",
         technologies: "",
@@ -169,14 +169,14 @@ export const moreObject = [
     /**---------------------------------
      * Santad up comedy
      ---------------------------------*/
-     /*{
+     {
         images: [],
         title: "Stand up comedy",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: 'Me apasiona el humor y el fino arte de hacer reir. Desde mis épocas como estudiante he hecho standup comedy en espacios universitaroios, bares, teatros y alguna vez en televisión regional. Un día decidí pararme frente a un público con la firme intención de hacerlos reir, tarea, que debo aclarar, no es cosa facil; ha sido una de las "locuras" más arriesgadas que he emprendido, pero de la cual he obtenido experiencias inolvidables.',
         client: "",
         platforms: "",
         technologies: "",
         content: true,
         type: "more"
-    },*/
+    },
 ]
