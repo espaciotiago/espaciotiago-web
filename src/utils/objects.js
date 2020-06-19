@@ -129,6 +129,9 @@ export const portfolioObjects = [
         platforms: "Web",
         technologies: "React Js, Firebase",
         url: "https://mitiendacafe.com/#/",
+        instagram: "https://www.instagram.com/mitiendacafecom/",
+        youtube: "https://www.youtube.com/channel/UCitl_ZY3oeOKjSw1a7fpCpg",
+        facebook: "https://www.facebook.com/mitiendacafe/",
         mobile: false,
         type: "project"
     },
@@ -141,11 +144,14 @@ export const contentObject = [
     {
         images: [],
         title: "Tecnocretinos",
-        description: "Es aún una idea en al que se pretendé divulgar de manera creativa y diferente, contenido de interes general sobre el mundo de la técnologia y la ciencia.",
+        description: "Hay suficientes tutoriales, mooc, podcast, libros, video vlogs y lecturas que te enseñan a programar y a crear aplicaciones de 0 a 100. Por eso decidimos enfocarnos en otro tipo contenido, en contenido del mundo real, estrellones con los clientes, jefes, equipos de trabajo, proyectos freelance, líos legales y demás temas que rodean a la industria de la tecnología. " +
+            "En este espacio hablaremos desde nuestra experiencia e invitaremos a personas que admiramos o máquinas, amigos, expertas y no tan expertas para hablar de toda clase de cretinadas geeks.",
         client: "",
         platforms: "",
         technologies: "",
         url: "",
+        instagram: "https://www.instagram.com/tecnocretinos/",
+        youtube: "https://www.youtube.com/channel/UCXkkm-gmg4jJ-uBJdt7t7hA",
         content: true,
         type: "content"
     },
@@ -169,7 +175,7 @@ export const moreObject = [
     /**---------------------------------
      * Santad up comedy
      ---------------------------------*/
-     {
+    {
         images: [],
         title: "Stand up comedy",
         description: 'Me apasiona el humor y el fino arte de hacer reir. Desde mis épocas como estudiante he hecho standup comedy en espacios universitaroios, bares, teatros y alguna vez en televisión regional. Un día decidí pararme frente a un público con la firme intención de hacerlos reir, tarea, que debo aclarar, no es cosa facil; ha sido una de las "locuras" más arriesgadas que he emprendido, pero de la cual he obtenido experiencias inolvidables.',

@@ -44,7 +44,7 @@ function Home(props) {
         </div>
       </section>
       {/* Porfolio */}
-      <Section title="Portfolio">
+      <Section title="Portafolio">
         <p>
           A continuación se muestran algunos de los proyectos más destacados que he tenido la oportunidad de desarrollar en mi carrera como independiente.
           Para obtener un poco más de información sobre mi background laborar, te invito a ver mi CV en el siguiente 
@@ -62,7 +62,7 @@ function Home(props) {
         </div>
       </Section>
       {/* Content */}
-      <Section title="Content">
+      <Section title="Contenido">
         <p>
           La generación de contenido es aún un mundo inexplorado por mi, pero que me genera mucha curiosidad.
           </p>
@@ -78,7 +78,7 @@ function Home(props) {
         </div>
       </Section>
       {/* About me */}
-      <Section title="More">
+      <Section title="Más">
         <p>
           Esta sección muestra otros de mis proyectos personales, pasiones y hobbies a los que dedico tiempo y esfuerzos,
           más alla de ámbito profesional. Son proyectos que me han permitido desarrollar habilidades y tener experiencias diferentes pero igual de enriquecedoras.
