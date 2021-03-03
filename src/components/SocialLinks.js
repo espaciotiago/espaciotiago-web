@@ -39,7 +39,7 @@ function SocialLinks() {
 
             <a
                 rel="noopener noreferrer"
-                href="https://github.com/espaciotiago"
+                href="https://www.youtube.com/channel/UCXkkm-gmg4jJ-uBJdt7t7hA"
                 target="_blank">
                 <img src={Youtube} height={32} alt="youtube" />
             </a>
